@@ -1,0 +1,41 @@
+@media screen and (max-width: 750px) {
+    header {
+        gap: 50%;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .topo ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+    .aside-topic {
+        width: 70%;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .end-page {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .end-page section {
+        padding-bottom: 5%;
+    }
+}

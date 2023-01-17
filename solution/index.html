@@ -7,15 +7,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | News homepage</title>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="/solution/css/style.css">
   <link rel="stylesheet" href="/solution/css/stylesheet.css">
+  <link rel="stylesheet" href="/solution/css/media.css">
 </head>
 
 <body>
 <header class="topo">
     <img src="/assets/images/logo.svg" alt="logo-site">
-    <nav>
+    <menu id="itens">
         <ul>
             <li>Home</li>
             <li>New</li>
@@ -23,7 +24,7 @@
             <li>Trending</li>
             <li>Categories</li>
         </ul>
-</nav>
+    </menu>
 </header>
 
 <section class="main">
@@ -49,7 +50,7 @@
     </section>    
 
     <section class="aside-topic">
-        <h2>New</h2> 
+        <h2 id="news">New</h2> 
 
         <div>
         <h3 class="title-aside">Hydrogen VS Electric Cars</h3>
@@ -70,30 +71,43 @@
 </section>
 
 <section class="end-page">
-    <div>
+    <section>
         <img src="/assets/images/image-retro-pcs.jpg" class="end-page-img">
-        <h1 class="end-page-number">01</h1>
-        <h3 class="end-page-title">Reviving Retro PCs</h3>
-        <p class="end-page-text">What happens when old PCs are given modern upgrades?</p>
-    </div>
+        <div class="end-page-divs">
+            <h1 class="end-page-number">01</h1>
+            <h3 class="end-page-title">Reviving Retro PCs</h3>
+            <p class="end-page-text">What happens when old PCs<br>are given modern upgrades?</p>
+        </div>
+    </section>
 
-    <div>
+    <section>
         <img src="/assets/images/image-top-laptops.jpg" class="end-page-img">
-        <h1 class="end-page-number">02</h1>
-        <h3 class="end-page-title">Top 10 Laptops of 2022</h3>
-        <p class="end-page-text">Our best picks for various needs and budgets.</p>
-    </div>
 
-    <div>
+        <div class="end-page-divs">
+            <h1 class="end-page-number">02</h1>
+            <h3 class="end-page-title">Top 10 Laptops of 2022</h3>
+            <p class="end-page-text">Our best picks for various<br>needs and budgets.</p>
+        </div>
+    </section>
+
+    <section>
         <img src="/assets/images/image-gaming-growth.jpg" class="end-page-img">
-        <h1 class="end-page-number">03</h1>
-        <h3 class="end-page-title">The Growth of Gaming</h3>
-        <p class="end-page-text">How the pandemic has sparked fresh opportunities.</p>
-    </div>
+
+        <div class="end-page-divs">
+            <h1 class="end-page-number">03</h1>
+            <h3 class="end-page-title">The Growth of Gaming</h3>
+            <p class="end-page-text">How the pandemic has sparked<br>fresh opportunities.</p>
+        </div>
+    </section>
 </section>
+
+
+<br><br><br>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://viniciusccl.netlify.app/">Vinícius Lima</a>.
   </div>
+
+  <script src="/solution/script.js"></script>
 </body>
 </html>

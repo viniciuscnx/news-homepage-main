@@ -47,6 +47,12 @@ li {
     font-size: 1rem;
 }
 
+li:hover {
+    color: var(--soft-orange);
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -101,11 +107,75 @@ section.container {
 .aside-topic {
     background-color: var(--very-dark-blue);
     color: var(--off-white);
-    width: 30%;
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#news {
+    color: var(--soft-orange);
+    font-size: 2rem;
+    margin-bottom: 8%;
+}
+
+.aside-topic div {
+    margin-bottom: 20%;
+    border-bottom: 1px solid #fff;
+}
+
+.title-aside:hover {
+    color: var(--soft-orange);
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.p-aside {
+    color: var(--grayish-blue);
+    margin-bottom: 15%;
 }
 
 .end-page {
-    margin: 5%;
+    margin-top: 5%;
+    display: inline-flex;
+}
+
+.end-page section {
     display: flex;
     flex-direction: row;
 }
+
+.end-page div {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.end-page-img {
+    width: 35%;
+    height: 60%;
+}
+
+.end-page-number {
+    color: var(--grayish-blue);
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+
+.end-page-title {
+    color: var(--very-dark-blue);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 3%;
+}
+
+.end-page-title:hover {
+    color: var(--soft-red);
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.end-page-text {
+    color: var(--dark-grayish-blue);
+}
+
