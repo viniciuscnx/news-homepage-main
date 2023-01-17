@@ -30,8 +30,9 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 60%;
     margin-bottom: 5%;
+    justify-content: space-around;
+    gap: 10%;
 }
 
 ul {
@@ -51,6 +52,18 @@ li:hover {
     color: var(--soft-orange);
     transition: all 300ms ease-in-out;
     cursor: pointer;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #000;
+    margin: 8px;
 }
 
 .main {
@@ -179,3 +192,7 @@ section.container {
     color: var(--dark-grayish-blue);
 }
 
+.attribution {
+    font-size: 1.5rem;
+    font-family: inter;
+}
